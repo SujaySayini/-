@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Shooting Stars</title>
+        <link rel="stylesheet" href="./resources/css/index.css">
+    </head>
+    <body>
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <ul>
+                <li><a class="blue" class="home" href="#top">Shooting Star</a></li>
+                <li><a class="pagelink" href="#star-rotation">Star Rotating Section</a></li>
+                <li><a class="pagelink" href="#hide-seek">Star Hide and Seek</a></li>
+                <li><a class="pagelink" href="#myStar">Post on Social Media</a></li>
+            </ul>
+        </nav>
+
+        <!-- Rotation Station section -->
+
+        <div class="banner" id="star-rotation">
+            <h1>Rotating Star<h1>
+            <img id="big-Pic" src="./resources/images/Star.png" alt="">
+            <!-- "./" is a relative path within the folder this index file -->
+            <p>A picture of a shooting star in action...that can move!</p>
+            <button type="button" id="rotate-left">Rotate Left</button>
+            <button type="button" id="rotate-right">Rotate Right</button>
+        </div>
+
+        <!-- Hide and Seek Section -->
+        <div id="hide-seek">
+            <h2>Hide and Seek</h2>
+            <p>The star will <em>disappear</em> when you use your mouse on the image.</p>
+            <p>Or you can even use your <strong>keyboard</strong>.</p>
+            <div class="border" id="my-border">
+                <img class="" id="toggleStar" src="./resources/images/Star.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- Shooting Star Section -->
+        <div class="star-section">
+            <span class="bold" id="myStar">Star</span>
+            <p class="subheader">Post something now on our Twitter</p>
+            <form id="star-form">
+                <input type="text" name="greet"/>
+                <input type="submit" value="Submit">
+            </form>
+            <div id="star">
+                <ul>
+                    <li>
+                        <div class="avatar"></div><span> Hi there, I am a shooting star</span>
+                    </li>
+                    <li>
+                        <div class="avatar"></div><span> I like food</span>
+                    </li>
+                    <li>
+                        <div class="avatar"></div><span> And I am hungry</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="./star.js ">
+        </script>
+        <!-- script has to stay at the bottom -->
+        <!-- <h1>Hello World, My name is Sujay Sayini</h1>
+        <img src="https://vignette.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20190124235416" alt=""> -->
+    </body>
+</html>
+
+<!-- /Users/sujaysayini/Downloads/All Programming/VSC Files/hello_html/index.html -->
+<!-- To comment, do command-4-/ -->
